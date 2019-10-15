@@ -1,5 +1,3 @@
-window.onload = function(e) {
-  document
-    .querySelector(`a[href='${location.pathname.substring(1)}']`)
-    .classList.add("current");
-};
+document
+  .querySelector(`a[href='${location.pathname.substring(11)}']`)
+  .classList.add("current");
