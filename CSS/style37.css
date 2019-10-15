@@ -1,0 +1,15 @@
+body {
+  background: greenyellow;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 700px;
+  margin-top: 20vw;
+}
+.square {
+  background: #161616;
+  width: 20vw;
+  height: 20vw;
+}

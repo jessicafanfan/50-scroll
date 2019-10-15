@@ -1,0 +1,19 @@
+body {
+  background: blue;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 3000px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40vh;
+}
+p {
+  color: #fff;
+  font-size: 20px;
+  position: fixed;
+  top: calc(50vh - 10px);
+  text-transform: uppercase;
+}

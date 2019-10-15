@@ -1,0 +1,25 @@
+body {
+  background: peru;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 2000px;
+  display: flex;
+  justify-content: center;
+}
+.circle-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+.circle {
+  background: #161616;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  margin: 0 20px;
+}

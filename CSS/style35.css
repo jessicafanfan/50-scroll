@@ -1,0 +1,19 @@
+body {
+  background: lime;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 5000px;
+  margin-top: 20vw;
+}
+.circle {
+  width: 20vw;
+  height: 20vw;
+  background: #fff;
+  transform: scaleX(1);
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 15vw;
+}

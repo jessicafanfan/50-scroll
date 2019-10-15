@@ -1,0 +1,16 @@
+body {
+  background: darkgoldenrod;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 500vh;
+}
+img {
+  width: 100vw;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

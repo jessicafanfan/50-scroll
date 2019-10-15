@@ -1,0 +1,23 @@
+body {
+  background: #373737;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 5000px;
+  display: flex;
+  justify-content: center;
+}
+.bar-wrapper {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+}
+.bar {
+  width: 20vw;
+  height: 100vh;
+  background: #fff;
+}

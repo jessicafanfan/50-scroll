@@ -1,0 +1,24 @@
+body {
+  background: peachpuff;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 2800px;
+  display: flex;
+  justify-content: center;
+}
+.circle-holder {
+  position: fixed;
+  top: calc(50vh - 10vw);
+  display: flex;
+  flex-direction: row;
+}
+.circle {
+  width: 20vw;
+  height: 20vw;
+  background: palevioletred;
+  transform: scale(1);
+  border-radius: 0%;
+}

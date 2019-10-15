@@ -1,0 +1,17 @@
+body {
+  background: orange;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square {
+  width: 15vw;
+  height: 15vw;
+  background: purple;
+}

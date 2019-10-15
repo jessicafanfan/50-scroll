@@ -1,0 +1,13 @@
+body {
+  background: royalblue;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 2800px;
+  display: flex;
+  justify-content: center;
+  background: rosybrown;
+  opacity: 1;
+}

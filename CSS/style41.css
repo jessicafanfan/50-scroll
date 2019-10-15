@@ -1,0 +1,19 @@
+body {
+  background: plum;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 2800px;
+}
+.circle {
+  width: 20vw;
+  height: 20vw;
+  background: peachpuff;
+  transform: scale(1);
+  border-radius: 0%;
+  position: fixed;
+  top: calc(50vh - 10vw);
+  left: 40vw;
+}

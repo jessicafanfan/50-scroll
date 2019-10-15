@@ -1,0 +1,28 @@
+body {
+  background: blue;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.bar-holder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.bar {
+  width: 0px;
+  height: 100vh;
+  background: orange;
+}
+.bar.gray {
+  background: blue;
+}

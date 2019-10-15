@@ -1,0 +1,25 @@
+body {
+  background: darkslategray;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 3200px;
+  display: flex;
+  justify-content: center;
+}
+.img-holder {
+  position: fixed;
+  width: 20vw;
+  top: 43vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  position: absolute;
+  top: 0;
+  width: 20vw;
+  height: auto;
+}

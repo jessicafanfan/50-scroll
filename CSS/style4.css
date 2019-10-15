@@ -1,0 +1,72 @@
+body {
+  background: lightseagreen;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+ul {
+  position: relative;
+  width: 500px;
+  height: 960px;
+  margin: 0;
+  margin: 0;
+  padding: 0 0 0 10vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  list-style: none;
+  transform: translateX(-5vw);
+  -webkit-perspective: 400px;
+  -moz-perspective: 400px;
+  -ms-perspective: 400px;
+  -o-perspective: 400px;
+  perspective: 400px;
+}
+ul li {
+  position: relative;
+  height: 120px;
+  background: red;
+  color: #252525;
+  font-size: 18px;
+  z-index: 2;
+  border-radius: 100px;
+
+  -webkit-transform: translateZ(0px);
+  -moz-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  -o-transform: translateZ(0px);
+  transform: translateZ(0px);
+}
+.fan li {
+  -webkit-transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  -moz-transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  -ms-transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  -o-transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -o-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+.fan li.past {
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+.fan li.future {
+  -webkit-transform: rotate(70deg);
+  -moz-transform: rotate(70deg);
+  -ms-transform: rotate(70deg);
+  -o-transform: rotate(70deg);
+  transform: rotate(70deg);
+}

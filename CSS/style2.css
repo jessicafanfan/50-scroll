@@ -1,0 +1,43 @@
+body {
+  height: 200vh;
+  background: blue;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+#reveal-elements {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15vw;
+}
+.digit {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: all 0.6s ease-out;
+  width: 10vw;
+  height: 10vw;
+  margin-right: 5vw;
+}
+.digit.visible {
+  opacity: 1;
+  transform: none;
+}
+.digit:first-child {
+  background: lightskyblue;
+}
+.digit:nth-child(2) {
+  background: lightgreen;
+  margin-top: 50px;
+}
+.digit:nth-child(3) {
+  background: lightgoldenrodyellow;
+  margin-top: 100px;
+}
+.digit:nth-child(4) {
+  background: lightsalmon;
+  margin-top: 150px;
+}
+.digit:nth-child(5) {
+  background: lightseagreen;
+  margin-top: 200px;
+  margin-right: unset;
+}

@@ -1,0 +1,40 @@
+body {
+  background: red;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-wrapper {
+  position: relative;
+  width: 25vw;
+  height: 25vw;
+}
+.circle {
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50rem;
+}
+.circle:first-child {
+  background: yellow;
+}
+.circle:nth-child(2) {
+  background: red;
+}
+.circle:nth-child(3) {
+  background: salmon;
+}
+.circle:nth-child(4) {
+  background: red;
+}
+.circle:nth-child(5) {
+  background: orange;
+}

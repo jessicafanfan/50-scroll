@@ -1,0 +1,32 @@
+body {
+  background: pink;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 5000px;
+  display: flex;
+  justify-content: center;
+}
+.stripe-wrapper {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+.stripe {
+  width: 100vw;
+  height: 20vw;
+  background: #fff;
+}
+
+.stripe-wrapper.top {
+  position: absolute;
+  top: 0;
+}
+.stripe-wrapper.top .stripe {
+  background: orange;
+}

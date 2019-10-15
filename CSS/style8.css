@@ -1,0 +1,17 @@
+body {
+  background: gray;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.bar {
+  width: 20vw;
+  height: 30vh;
+}

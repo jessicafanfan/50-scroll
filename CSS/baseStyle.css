@@ -1,0 +1,34 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 1rem;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+nav a.current {
+  color: inherit;
+  text-decoration: underline;
+  opacity: 0.5;
+}
+.spacer.s0 {
+  height: 10vh;
+}
+.spacer.s2 {
+  height: 100vh;
+}

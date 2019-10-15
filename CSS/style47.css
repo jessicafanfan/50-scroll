@@ -1,0 +1,26 @@
+body {
+  background: royalblue;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.circle-holder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  width: 800px;
+  height: 800px;
+  background: white;
+  border-radius: 50%;
+}

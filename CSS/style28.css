@@ -1,0 +1,51 @@
+body {
+  background: red;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 5000px;
+  display: flex;
+  justify-content: center;
+}
+.square-wrapper {
+  position: fixed;
+  width: 20vw;
+  height: 20vw;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+.square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22vw;
+  height: 22vw;
+  background: red;
+  transform: rotate(0deg);
+}
+.square:nth-child(1) {
+  background: yellow;
+}
+.square:nth-child(2) {
+  background: pink;
+}
+.square:nth-child(3) {
+  background: lightskyblue;
+}
+.square:nth-child(4) {
+  background: salmon;
+}
+.square:nth-child(5) {
+  background: purple;
+}
+.square:nth-child(6) {
+  background: orange;
+}
+.square:nth-child(7) {
+  background: lightgreen;
+}
+.square:nth-child(8) {
+  background: yellow;
+}

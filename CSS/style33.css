@@ -1,0 +1,21 @@
+body {
+  background: green;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 5000px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40vh;
+}
+.bar-holder {
+  position: fixed;
+  top: 45vh;
+}
+.bar {
+  width: 15vw;
+  height: 10vh;
+  background: olivedrab;
+}

@@ -1,0 +1,28 @@
+body {
+  background: coral;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 825px;
+}
+.lozenge-main-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.lozenge-holder {
+  display: flex;
+  flex-direction: row;
+}
+.lozenge {
+  width: 12.5vw;
+  height: 11.12vh;
+  border-radius: 5vw;
+  background: yellow;
+  box-shadow: 0 0 0 1px yellow;
+  will-change: transform;
+}

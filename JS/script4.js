@@ -1,0 +1,1 @@
+stroll.bind("#main ul");

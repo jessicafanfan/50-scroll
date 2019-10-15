@@ -1,0 +1,21 @@
+body {
+  background: lightgreen;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 500vh;
+  display: flex;
+  justify-content: center;
+}
+.three-d {
+  position: fixed;
+  top: 50vh;
+  transform: translateY(-50%);
+  perspective: 1000px;
+}
+.three-d img {
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+}

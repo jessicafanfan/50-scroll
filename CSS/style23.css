@@ -1,0 +1,21 @@
+body {
+  background: #fafafa;
+  font-family: "Courier New", Courier, monospace;
+  color: #161616;
+}
+#main {
+  width: 100vw;
+  height: 7000px;
+  display: flex;
+  justify-content: center;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: row;
+  font-size: 5vw;
+  white-space: nowrap;
+  position: fixed;
+  top: 45vh;
+  left: 0;
+  will-change: transform;
+}
